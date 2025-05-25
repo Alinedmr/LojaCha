@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chá & Encantos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class ="top-bar">
+        <div>@chaeencantos</div>
+        <div>WhatsApp: (99)99999-9999</div>
+    </div>
+
+    <div class="header">
+        <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+    <div class="logo"><img src="../assets/logo.png" alt="logo"></div>
+    <div class="search-box">
+        <input type="text" placeholder="Busque seu chá encantado...">
+    </div>
+    <div class ="icons">
+        <div>Dúvidas?</div>
+        <div>Favoritos</div>
+        <div>Pedidos</div>
+        <div>Minha Conta</div>
+        <div>Cesta</div>
+    </div>
+ </div>
+    
+        <aside class="sidebar" id="sidebar">
+            <h2>Categorias</h2>
+            <ul>
+                <li><a href="../telaProdutos/digestivos.html">Digestivos</a></li>
+                <br>
+                <li><a href="antioxidantes.html">Antioxidantes</a></li>
+                <br>
+                <li><a href="diureticos.html">Diuréticos</a></li>
+                <br>
+                <li><a href="calmantes.html">Calmantes</a></li>
+                <br>
+                <li><a href="isotonicos.html">Isotônicos</a></li>
+                <br>
+                <li><a href="vovo.html">Chás da Vovó</li>
+                <br>
+                <li><a href="detox.html">Detox</a></li>
+                <br>
+                <li><a href="energizantes.html">Energizantes</a></li>
+                <br>
+                <li><a href="imunidade.html">Imunidade</a></li>
+                <br>
+            </ul>
+            <h2>Ajuda</h2>
+            <ul>
+                <br>
+                <li>Contato</li>
+                <br>
+                <li>Ajuda</li>
+                <br>
+                <li>Sobre Nós</li>
+                <br>
+                <li>Política de Privacidade</li>
+                <br>
+                <li>Termos de Uso</li>
+                <br>
+            </ul>
+
+        </aside>
+        <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+
+
+        <div class="menu">
+            <div class="menu-item">
+                <img src="../assets/canabis.png" alt="Calmantes">
+                <div>Calmantes</div>
+            </div>
+            <div class="menu-item">
+                <img src="../assets/deepafule.png" alt="Digestivos">
+            <div>Digestivos</div>
+            </div>
+
+             <div class="menu-item">
+             <img src="../assets/cogumelo.png" alt="Chás da Vovó">
+            <div>Chás da Vovó</div>
+             </div>
+             <div class="menu-item">
+            <img src="../assets/kitCinco.png" alt="Assinaturas">
+            <div>Assinaturas</div>
+            </div>
+            <div class="menu-item">
+             <img src="../assets/kitCaixa.png" alt="Kits Encantados">
+             <div>Kits<br> Encantados</div>
+            </div>
+            <div class="menu-item">
+            <img src="../assets/preparo.png" alt="Oficinas">
+            <div>Oficinas <br> de Preparo
+            </div>
+             </div>
+             <div class="menu-item">
+            <img src="../assets/kitInfusor.png" alt="Oficinas">
+            <div>Monte seu<br> Próprio Kit
+            </div>
+            </div>
+
+        
+
+    </div>
+    <div class="banner-duplo">
+            <img src="../assets/banner.png" alt="Banner">
+
+        </div>
+
+        <section class="produtos-destaque">
+  <h2>Destaques</h2>
+  <div class="produtos-grid">
+    <div class="produto">
+      <img src="../assets/camomila.png" alt="Chá de Camomila">
+      <h3>Chá de Camomila</h3>
+      <p class="preco promo">R$ 47,90 <span class="preco-antigo">R$ 59,90</span></p>
+      <p class="parcelado">até 4x de R$ 11,97 sem juros</p>
+    </div>
+    <div class="produto">
+      <img src="../assets/canabis.png" alt="Chá Calmante Cannabis">
+      <h3>Chá Calmante Cannabis</h3>
+      <p class="preco promo">R$ 39,90 <span class="preco-antigo">R$ 47,90</span></p>
+      <p class="parcelado">até 4x de R$ 9,97 sem juros</p>
+    </div>
+    <div class="produto">
+      <img src="../assets/chaiplante.png" alt="Chaiplante">
+      <h3>Chá Detox Chaiplante</h3>
+      <p class="preco promo">R$ 47,90 <span class="preco-antigo">R$ 59,90</span></p>
+      <p class="parcelado">até 4x de R$ 11,97 sem juros</p>
+    </div>
+    <div class="produto">
+      <img src="../assets/sereneta.png" alt="Chá Antioxidantes Sereneta">
+      <h3>Chá Antioxidante Serenta</h3>
+      <p class="preco promo">R$ 39,90 <span class="preco-antigo">R$ 49,90</span></p>
+      <p class="parcelado">até 4x de R$ 9,97 sem juros</p>
+    </div>
+  </div>
+</section>
+
+<section class="kits-promocionais">
+  <h2>Kits Promocionais</h2>
+    <div class="produtos-grid">
+    <div class="produto">
+        <img src="../assets/kitXicaras.png" alt="Kit Jogo de Chá + Chá Chaiplante">
+        <h3>Kit Jogo de Chá + Chá Chaiplante</h3>
+        <p class="preco promo">R$ 116,90 <span class="preco-antigo">R$ 129,90</span></p>
+        <p class="parcelado">até 4x de R$ 29,22 sem juros</p>
+    </div>
+    <div class="produto">
+        <img src="../assets/kitInfusor.png" alt="Kit Chás e Calmaria + Infusor">
+        <h3>Kit Chás Menta e Calmaria + Infusor</h3>
+        <p class="preco promo">R$ 98,90 <span class="preco-antigo">R$ 109,90</span></p>
+        <p class="parcelado">até 4x de R$ 24,72 sem juros</p>
+    </div>
+    <div class="produto">
+        <img src="../assets/kitCaixa.png" alt="Kit Chá Verde + Lual de Eutonio">
+        <h3>Kit Chá Verde + Lual de Eutonio</h3>
+        <p class="preco promo">R$ 89,90 <span class="preco-antigo">R$ 99,90</span></p>
+        <p class="parcelado">até 4x de R$ 22,47 sem juros</p>
+    </div>
+    <div class="produto">
+        <img src="../assets/kitCinco.png" alt="Kit 5 Chás Avulsos">
+        <h3>Kit 5 Chás Avulsos</h3>
+        <p class="preco promo">R$ 119,90 <span class="preco-antigo">R$ 129,90</span></p>
+        <p class="parcelado">até 4x de R$ 29,97 sem juros</p>
+    </div>
+
+
+        <section class="sobre-nos">
+            <h2>Sobre Nós</h2>
+            <p>O Chá & Encantos é mais do que uma loja de chás — é um espaço onde tradição, afeto e natureza se encontram.
+
+Criado por Aurora, uma apaixonada por ervas e saberes populares, o projeto nasceu após anos de estudos em plantas medicinais, viagens pelo interior do Brasil e encontros com mestres da terra. Aqui, cada infusão carrega uma história única. Algumas vêm de rituais ancestrais, outras das receitas da vovó, e muitas de culturas encantadoras descobertas em caminhos distantes.
+
+Cada erva é escolhida com cuidado, cada aroma tem um propósito. Nosso chá não é apenas para ser bebido — é para ser sentido.
+
+Seja bem-vindo a esse lugar de calma, memória e magia. O Chá & Encantos é um convite para você desacelerar, cuidar de si e se reconectar com o que é natural e verdadeiro.</p>
+        </section>
+
+    <footer>
+        <p>&copy; 2023 Chá & Encantos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+       
+</body>
+</html>
